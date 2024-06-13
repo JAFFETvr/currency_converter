@@ -1,0 +1,24 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+   
+}
+.converter{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 400px; /* Limita el ancho máximo para mejor visualización */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Aumenta el padding para un mejor aspecto */
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    border-radius: 10px; /* Añade bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra para un efecto de profundidad */
+    background-color: #f9f9f9; /* Color de fondo suave */
+}
+#resultado{
+    font-size: 20px;
+}
