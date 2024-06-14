@@ -2,7 +2,7 @@ import React from 'react';
 import Label from '../atoms/Label';
 import Input from '../atoms/Input';
 import './Section.css'
-function Section({ cantidad, onCantidadChange, desdeMoneda, onDesdeMonedaChange, aMoneda, onAMonedaChange }) {
+function Container({ cantidad, onCantidadChange, desdeMoneda, onDesdeMonedaChange, aMoneda, onAMonedaChange }) {
   return (
     <>
       <Input 
@@ -18,4 +18,4 @@ function Section({ cantidad, onCantidadChange, desdeMoneda, onDesdeMonedaChange,
   );
 }
 
-export default Section;
+export default Container;

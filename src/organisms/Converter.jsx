@@ -1,5 +1,5 @@
- import Section from "../componets/Section";
- import { useState , useEffect} from "react";
+import Container from "../componets/Container";
+import { useState , useEffect} from "react";
  import Button from "../atoms/Button";
  import Button2 from "../atoms/Button2";
  import Input from "../atoms/Input";
@@ -49,7 +49,7 @@ function Converter() {
 
   return (
     <div className="converter">
-      <Section 
+      <Container 
         cantidad={cantidad} 
         onCantidadChange={handleCantidadChange}
         desdeMoneda={desdeMoneda} 
